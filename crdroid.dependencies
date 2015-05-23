@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "crdroidandroid",
+    "repository": "android_device_lge_g3-common",
+    "target_path": "device/lge/g3-common",
+    "revision": "5.1.1"
+  }
+]
