@@ -1,15 +1,11 @@
 [
   {
-    "remote": "crdroidandroid",
     "repository": "android_device_lge_g3-common",
-    "target_path": "device/lge/g3-common",
-    "revision": "5.1.1"
+    "target_path": "device/lge/g3-common"
   },
   {
-    "remote": "crdroidandroid",
     "repository": "android_kernel_lge_g3",
-    "target_path": "kernel/lge/g3",
-    "revision": "5.1.1"
+    "target_path": "kernel/lge/g3"
   },
   {
     "remote": "CyanogenMod",
