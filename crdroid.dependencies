@@ -3,24 +3,24 @@
     "remote": "crd",
     "repository": "android_device_lge_g3-common",
     "target_path": "device/lge/g3-common",
-    "revision": "5.1.1"
+    "revision": "6.0.0"
   },
   {
     "remote": "crd",
     "repository": "android_kernel_lge_g3",
     "target_path": "kernel/lge/g3",
-    "revision": "5.1.1"
+    "revision": "6.0.0"
   },
   {
     "remote": "CyanogenMod",
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision": "cm-12.1"
+    "revision": "cm-13.0"
   },
   {
     "remote": "tm",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "revision": "cm-12.1"
+    "revision": "cm-13.0"
   }
 ]
