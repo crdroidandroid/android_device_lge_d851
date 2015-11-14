@@ -36,12 +36,6 @@
     "revision": "cm-13.0"
   },
   {
-    "remote": "CyanogenMod",
-    "repository": "android_external_connectivity",
-    "target_path": "external/connectivity",
-    "revision": "cm-13.0"
-  },
-  {
     "remote": "tm",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
