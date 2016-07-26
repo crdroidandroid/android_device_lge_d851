@@ -3,12 +3,12 @@ PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/lge/d851/full_d851.mk)
 
 # Inherit some common crdroid stuff.
-$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := crdroid_d851
+PRODUCT_NAME := cm_d851
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
