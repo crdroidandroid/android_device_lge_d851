@@ -26,7 +26,10 @@ BOARD_CUSTOM_BT_CONFIG := device/lge/d851/bluetooth/vnd_g3.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi/bin
 TARGET_KERNEL_CONFIG := lineageos_d851_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linaro-linux-androideabi-
+TARGET_REQUIRES_BUMP := true
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
